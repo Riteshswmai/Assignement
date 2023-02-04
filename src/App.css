@@ -19,15 +19,24 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: var(--whitesmoke);
+  color: var(--smoke);
 }
-.container,
+.container{
+  
+    max-width: 1200px;
+    padding: 0px 30px;
+    width: 100%;
+    margin: auto;
+    
+  
+}
 .header-inner {
-  max-width: 1200px;
-  padding: 0px 20px;
+  max-width: 12000px;
+  padding: 0px 30px;
   width: 100%;
   margin: auto;
+  
 }
 .btn {
   display: flex;
@@ -43,39 +52,47 @@ img {
   width: 100%;
 }
 header {
-  height: 100px;
+  height: 60px;
+  padding-top: 20px;
+  background-color: rgb(248, 245, 245);
+  padding-bottom: 5px;
 }
 header.sticky {
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
-  z-index: 10;
-  transition: 0.3s;
-  position: sticky;
-  top: 0;
+  box-shadow: 0 0 5px rgba(137, 216, 216, 0.6);
+ 
   background: var(--dark-light);
   height: 70px;
 }
 header .header-inner {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  background-color: rgb(53, 175, 236);
+
+ 
+  
 }
 .header-inner .logo {
   font-size: 15px;
   line-height: 50px;
-  color: var(--red-text);
+  color: var(--blue-text);
   font-weight: 1000;
+  letter-spacing: 0.5vmin;
+  font-family:  monospace;
+  
 }
 .header-inner .link {
   margin-right: 30px;
-  color: var(--light);
+  color: var(--blue-text);
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   transition: 0.3s;
 }
 .header-inner .link:hover {
-  color: var(--red-text);
+  color: var(--black-text);
 }
 header .menu {
   display: none;

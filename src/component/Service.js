@@ -14,12 +14,7 @@ function Service() {
       desc: "Beginer but taking training courses to build strong base.",
       active: true,
     },
-    {
-      icon: "fa-ruler",
-      title: "Data Science",
-      desc: "Intermideate level and doing some training courses to ehance the knowlwdge.",
-      active: false,
-    },
+    
   ]);
   return (
     <section className="services-experience">
@@ -41,24 +36,7 @@ function Service() {
           <div className="experience">
            
           </div>
-          <div className="portfolios">
-            <div className="portfolio">
-              <h4>5+</h4>
-              <p>Hacathon Participated</p>
-            </div>
-            <div className="portfolio">
-              <h4>0-1</h4>
-              <p>Year Experience</p>
-            </div>
-            <div className="portfolio">
-              <h4>5+</h4>
-              <p>Projects</p>
-            </div>
-            <div className="portfolio">
-              <h4>3</h4>
-              <p>Achievements</p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>

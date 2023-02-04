@@ -23,19 +23,22 @@ function Header() {
   return (
     <header className={`${stickyClass}`}>
       <div className="header-inner">
-        <span className="logo">Portfolio</span>
+        <span className="logo">CodingMasters</span>
         <div className="links">
           <a className="link" href="#banner">
             Home
           </a>
           <a className="link" href="#services">
-            Sevices
+            Blog
           </a>
           <a className="link" href="#experiences">
-            Experience
+            Course
           </a>
           <a className="link" href="#projects">
-            Projects
+            Contact Us
+          </a>
+          <a className="link" href="#loginUp">
+            Login/Sign Up
           </a>
         </div>
         <span className="menu" onClick={() => setActive(!active)}>
@@ -47,17 +50,20 @@ function Header() {
           Home
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#services">
-          Sevices
+          Blog
         </a>
         <a
           className="link"
           onClick={() => setActive(!active)}
           href="#experiences"
         >
-          Experience
+         Course
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#projects">
-          Projects
+         Contact Us
+        </a>
+        <a className="link" onClick={() => setActive(!active)} href="#loginUp">
+         Login/SigneUp
         </a>
       </div>
     </header>
